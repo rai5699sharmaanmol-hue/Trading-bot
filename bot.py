@@ -8,7 +8,7 @@ import time
 # Pulls your secure token from GitHub Actions Secrets
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN") 
 # Replace this with your actual numeric Channel ID (keep the quotes)
-CHANNEL_ID = "YOUR_CHANNEL_ID_HERE"
+CHANNEL_ID = "@traders_auto_signal"
 
 # --- Configuration ---
 # List of assets you want to track
